@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+nav ul  {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav ul li {
+  color:darkcyan;
+  display: inline-block;
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;  /* Removes underline from links */
+    color: inherit;         /* Inherits color from parent element */
+    outline: none; 
+  display: inline-block;
+  margin-right: 1rem;
+}
+.nav ul .active {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.vertical-a-tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
